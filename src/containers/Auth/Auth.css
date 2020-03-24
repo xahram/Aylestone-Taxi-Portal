@@ -1,0 +1,52 @@
+.Auth {
+  width: 100%;
+  height: 100vh;
+  margin-bottom: 20px;
+  text-align: center;
+  box-shadow: 0 2px 3px #ccc;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid salmon;
+  background-color: rgb(17, 0, 255);
+  position: relative;
+}
+.Form {
+  width: 70%;
+  background-color: rgba(207, 205, 83, 0.609);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Form input {
+  width: 30%;
+  font-size: 120%;
+  padding: 6px 10px;
+}
+.Form label {
+  font-size: 120%;
+}
+.Form button {
+  font-size: 120%;
+  width: 40%;
+}
+
+.Input {
+  display: block;
+}
+
+@media (min-width: 600px) {
+  .Auth {
+    width: 100%;
+    height: 100vh;
+  }
+}
+@media (max-width: 499px) {
+  .Form button {
+    font-size: 120%;
+    width: 100%;
+  }
+}
+
+

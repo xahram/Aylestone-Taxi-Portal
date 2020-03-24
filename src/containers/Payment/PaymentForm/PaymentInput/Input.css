@@ -1,0 +1,40 @@
+.Input {
+  padding: 10px;
+  box-sizing: border-box;
+  width: 100%;
+}
+.Label {
+  display: block;
+  text-transform: capitalize;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.InputElement {
+  outline: none;
+  border: 1px solide salmon;
+  background-color: rgb(34, 255, 71);
+  font: inherit;
+  padding: 6px 10px;
+  width:50%;
+}
+.InputElement:focus {
+  outline: 1px blue;
+  border: 1px solide salmon;
+  background-color: rgb(41, 194, 41);
+}
+
+.IsValid {
+  border: 1px solid rgb(218, 12, 125);
+  background-color: rgb(255, 0, 0);
+}
+
+@media (max-width: 499px) {
+  .InputElement {
+    outline: none;
+    border: 1px solide salmon;
+    background-color: rgb(34, 255, 71);
+    font: inherit;
+    font-size: 12px;
+    /* padding: 6px 10px; */
+  }
+}

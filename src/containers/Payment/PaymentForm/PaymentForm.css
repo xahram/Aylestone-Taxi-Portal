@@ -1,0 +1,45 @@
+.ContactData {
+  width: 80%;
+  margin: 100px auto;
+  text-align: center;
+  box-shadow: 0 2px 3px #ccc;
+  padding: 20px;
+  /* box-sizing: border-box; */
+  border: 1px solid salmon;
+}
+
+.Label {
+  display: block;
+  text-transform: capitalize;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.CardLabel {
+  text-transform: capitalize;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.Card {
+  outline: none;
+  border: 1px solide salmon;
+  background-color: rgb(34, 255, 71);
+  font: inherit;
+  padding: 6px 10px;
+  width: 100%;
+  margin: auto;
+}
+.Card:focus {
+  outline: 1px blue;
+  border: 1px solide salmon;
+  background-color: rgb(41, 194, 41);
+}
+
+.Input {
+  display: block;
+}
+
+@media (min-width: 600px) {
+  .ContactData {
+    width: 80%;
+  }
+}

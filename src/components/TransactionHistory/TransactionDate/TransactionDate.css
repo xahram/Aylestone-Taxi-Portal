@@ -1,0 +1,15 @@
+.Transaction {
+    width:80%;
+    text-align: center;
+    margin: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 2%;
+    box-sizing: border-box;
+    border: 2px solid burlywood;
+}
+
+.Transaction span {
+    padding-left: 2%; 
+    
+}

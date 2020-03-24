@@ -1,0 +1,21 @@
+.Query{
+    width:60%;
+    margin:100px auto;
+    text-align: center;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 20px;
+    /* box-sizing: border-box; */
+    border: 1px solid salmon;
+}
+
+.Input {
+    display: block;
+}
+
+@media (min-width:600px)
+{
+    .Query{
+        width:500px;
+    }
+    
+}

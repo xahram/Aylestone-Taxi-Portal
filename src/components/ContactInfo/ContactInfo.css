@@ -1,0 +1,30 @@
+.ContactInfo {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-top: 2%;
+  box-sizing: border-box;
+  border: 2px solid burlywood;
+}
+.NavImg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 70%;
+  margin: auto;
+}
+
+.ContactInfo div img {
+  width: 20%;
+}
+.ContactInfo span {
+  padding-left: 2%;
+}
+
+@media (max-width: 500px) {
+  .ContactInfo div img {
+    width: 40%;
+  }
+}

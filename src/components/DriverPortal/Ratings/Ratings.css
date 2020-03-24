@@ -1,0 +1,22 @@
+.fa_custom {
+  color: yellow;
+}
+
+.Ratings {
+  width: 80%;
+  margin: 2% auto;
+  border: 2px solid crimson;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+}
+.Ratings div {
+  width: 30%;
+}
+.Ratings div:not(:last-child) span {
+  font-size: 150%;
+}
+
+.Ratings div:last-child span {
+  font-size: 80%;
+}   

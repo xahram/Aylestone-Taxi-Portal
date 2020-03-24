@@ -1,0 +1,1 @@
+export { logout, authAction} from './authActions';
